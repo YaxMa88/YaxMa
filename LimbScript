@@ -38,9 +38,9 @@ local Window = Rayfield:CreateWindow({
     },
 })
 
-local Settings = Window:CreateTab("Limbs", "scale-3d")
-local Tab = Window:CreateTab("Sense", "eye")
-local Target = Window:CreateTab("Target", "crosshair")
+local Settings = Window:CreateTab("HitBoxLimbs", "scale-3d")
+local Tab = Window:CreateTab("Mata Batin (ESP)", "eye")
+local Target = Window:CreateTab("TargetLimbs", "crosshair")
 local Themes = Window:CreateTab("Themes", "palette")
 
 local function safeCreate(tab, methodName, opts)
