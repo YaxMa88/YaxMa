@@ -13,19 +13,16 @@ getgenv().uilibray = getgenv().uilibray or loadstring(game:HttpGet('https://siri
 local Rayfield = getgenv().uilibray
 
 local Messages = {
-    "Yax Sigma",
-    "aryakganteng",
-    "aryax_1 on discord 🕸",
-    "THE FLYING Black Man ⚓",
-    
+    "arya ganteng",
+    "aryax_1 discord"   
 }
 local ChosenMessage = Messages[math.random(1, #Messages)]
 
 local Window = Rayfield:CreateWindow({
-    Name = "YaxMa",
+    Name = "AXIOS",
     Icon = 107904589783906,
 
-    LoadingTitle = "YaxMa",
+    LoadingTitle = "AXIOS",
     LoadingSubtitle = ChosenMessage,
 
     Theme = "Default",
@@ -39,8 +36,8 @@ local Window = Rayfield:CreateWindow({
 })
 
 local Settings = Window:CreateTab("Limbs", "scale-3d")
-local Tab = Window:CreateTab("(ESP)", "eye")
-local Target = Window:CreateTab("TargetLimbs", "crosshair")
+local Tab = Window:CreateTab("Sense", "eye")
+local Target = Window:CreateTab("Target", "crosshair")
 local Themes = Window:CreateTab("Themes", "palette")
 
 local function safeCreate(tab, methodName, opts)
